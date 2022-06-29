@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html style="background-color: brown;" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- this is title  -->
+    <title>Color Setter</title>
+
+    <!-- this is fav icon  -->
+    <link rel="shortcut icon" href=".icon.jpg" type="image/x-icon">
+
+    <!-- this is connector -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="w-full h-screen flex justify-center items-center  ">
+    
+    <div class="w-96 space-y-5">
+        <h1 class="text-3xl text-center font-extrabold rounded-lg bg-gradient-to-tr from-yellow-200 to-yellow-300 p-2">
+            <span class="text-violet-700">Set</span> <span class="text-fuchsia-700">Your</span> <span class="text-red-700">Color</span> <span class="text-lime-600">Code</span><span class="text-sky-700">!</span>
+        </h1>
+
+        <input type="text" class="pl-2 py-2 ring ring-yellow-500 outline-none w-full rounded-md font-medium " placeholder="type color name or code here" id="box">
+
+        <button  class="px-5 py-2 bg-yellow-700 font-bold text-lg rounded-md shadow-lg hover:bg-yellow-600 ring ring-yellow-500 text-white" onclick="func()">Set Color</button>
+    </div>
+
+
+    <!-- this is Externel javaScript file  -->
+    <script src="./main.js"></script>
+</body>
+</html>
